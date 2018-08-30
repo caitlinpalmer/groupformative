@@ -22,13 +22,13 @@ $(function(){
 		var iScrollTop = $(document).scrollTop();
 
 		var activeLi;
-		if(iScrollTop>=offset1-50 && iScrollTop<offset2){
+		if(iScrollTop>=offset1-100 && iScrollTop<offset2){
 			activeLi = $('.menu>li:nth-child(1)');
 		}
-		if(iScrollTop>=offset2-50 && iScrollTop<offset3){
+		if(iScrollTop>=offset2-100 && iScrollTop<offset3){
 			activeLi = $('.menu>li:nth-child(2)');
 		}
-		if(iScrollTop>=offset3-50){
+		if(iScrollTop>=offset3-100){
 			activeLi = $('.menu>li:nth-child(3)');
 		}
 		activeLi.addClass('active');
@@ -43,6 +43,7 @@ $(function(){
 		var targetOffsetTop = $(sTarget).offset().top;
 
 		$('html,body').animate({scrollTop:targetOffsetTop},1000);
+	});
 
 	if($('#works').length > 0){
 		$.ajax({

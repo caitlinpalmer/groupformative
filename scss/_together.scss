@@ -8,7 +8,8 @@
 
 .sections{
     .container{
-	    min-height: 100vh;
+	    max-height: 100vh;
+	    max-width:100%;
 	    border-bottom: thin $turquoise solid;
 	    border-top: thin transparent solid;
 	    overflow: hidden;
@@ -29,7 +30,7 @@
 
 		&>li{
 			flex:0 0 7em;
-			margin-right: 5em;
+			margin: 0 2.5em;
 			font-size: 1.2em;
 			text-align: center;
 			transition: all ease 0.5s;
