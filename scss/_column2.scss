@@ -1,0 +1,11 @@
+/* ==|====================
+   Layout/Constrained
+   ======================= */
+
+	.l-column2 {
+   		display:flex;
+		flex-wrap:wrap;
+		&>div{
+			flex: 1 0 40%;
+		}
+	}

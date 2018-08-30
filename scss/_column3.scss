@@ -1,0 +1,15 @@
+/* ==|======================
+   Layout/Column123
+   ========================= */
+
+
+	.l-column3 {
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-around;
+		&>div{
+			flex: 1 0 30%;
+		}
+	}
+
+

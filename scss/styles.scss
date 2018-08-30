@@ -6,11 +6,11 @@
  */
 @import "custom";
 
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/root";
-@import "../node_modules/bootstrap/scss/reboot";
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/root";
+// @import "../node_modules/bootstrap/scss/reboot";
 // @import "type";
 // @import "images";
 // @import "code";
@@ -45,3 +45,7 @@
 @import "section1";
 @import "section2";
 @import "section3";
+@import "column2";
+@import "column3";
+@import "circle";
+@import "nav";

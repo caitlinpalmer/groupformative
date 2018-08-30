@@ -1,6 +1,86 @@
 .section1{
+    .bg{
+        height:100vh;
+        background: url('../4.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        -webkit-filter:blur(50px);
+        background-attachment: fixed;
+    }
 
-	background-color: gray;
-	height:100vh;
-
+    #slideshow {
+        margin: 50px auto;
+        position: relative;
+        height: 100vh;
+        padding: 10px;
+          &> div {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          right: 10px;
+          bottom: 10px;
+        }
+    }
+    .second{
+        position: absolute;
+        top:20px;
+        h1{
+          font-family: $titlefont;
+          font-size: 7em;
+          position: relative;
+          right:5%;
+          top:50%;
+          z-index: 10;
+          text-align: right;
+          background-color: transparent;
+        }
+        p{
+          font-family: $titlefont;
+          font-size: 2em;
+          position: relative;
+          right:5%;
+          top:50%;
+          text-align: right;
+          color: $turquoise;
+        }
+        img{
+          width: 50%;
+          position: relative;
+          left:5%;
+          top:5%;
+          box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        }
+    }
+    .third{
+        position: absolute;
+        top:20px;
+        h1{
+          font-family: $titlefont;
+          font-size: 7em;
+          position: relative;
+          left:5%;
+          top:50%;
+          z-index: 10;
+          text-align: left;
+          background-color: transparent;
+        }
+        p{
+          font-family: $titlefont;
+          font-size: 2em;
+          position: relative;
+          left:5%;
+          top:50%;
+          text-align: left;
+          color: $turquoise;
+        }
+        img{
+          width: 50%;
+          position: relative;
+          left:45%;
+          top:10%;
+          box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        }
+    }
 }
+
